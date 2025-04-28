@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*:not(input):not(textarea) {
+  -moz-user-select: -moz-none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  -o-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: "Grandstander", sans-serif;
+}
